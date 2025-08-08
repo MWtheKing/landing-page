@@ -92,7 +92,7 @@ button:hover {
 .info {
     display: flex;
     flex-direction: column;
-    padding: 32px 208px 208px;
+    padding: 32px 208px 96px;
     gap: 48px;
 }
 
@@ -128,4 +128,31 @@ button:hover {
 .info-text {
     text-align: center;
     color: rgb(122, 128, 138);
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 96px 208px 96px 208px;
+    gap: 16px;
+}
+
+.quote-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    color: #1F2937;
+    font-size: 36px;
+    padding: 0 32px;
+}
+
+.quote-name {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: end;
+    padding: 0 96px;
 }
