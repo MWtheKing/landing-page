@@ -27,10 +27,6 @@ body {
     color: #F9FAF8;
 }
 
-li {
-
-}
-
 ul {
     display: flex;
     list-style-type: none;
