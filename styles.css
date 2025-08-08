@@ -48,7 +48,7 @@ a {
     gap: 32px;
 }
 
-.text {
+.hero-text {
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -87,4 +87,45 @@ button:hover {
     color: white;
     background-color: rgb(122, 128, 138);
     flex: 1;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 208px 208px;
+    gap: 48px;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.illustration {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+    flex-shrink: 0;
+}
+
+.info-items {
+    width: 158px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.info-text {
+    text-align: center;
+    color: rgb(122, 128, 138);
 }
