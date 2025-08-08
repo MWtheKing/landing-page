@@ -66,7 +66,7 @@ a {
     margin-bottom: 8px;
 }
 
-button {
+button.button {
     background-color: #3882F6;
     font-weight: bold;
     font-size: 18px;
@@ -76,8 +76,31 @@ button {
     border-radius: 8px;
 }
 
+.hero-text .button {
+    align-self: flex-start;
+}
+
 button:hover {
     background-color:#063888;
+}
+
+button.call-button {
+    background-color: #3882F6;
+    font-weight: bold;
+    font-size: 18px;
+    color: #F9FAF8;
+    padding: 8px 32px;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+button.call-button:hover {
+    background-color:#063888;
+}
+
+.box .call-button {
+    align-self: flex-start;
 }
 
 .img {
@@ -155,4 +178,32 @@ button:hover {
     display: flex;
     justify-content: end;
     padding: 0 96px;
+}
+
+.box {
+    display: flex;
+    background-color: #3882F6;
+    padding: 48px 96px;
+    border-radius: 8px;
+    gap: 32px;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    padding: 96px 208px;
+    margin: 0;
+}
+
+.call-main {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.call-secondary {
+    color: #F9FAF8;
+    font-size: medium;
 }
